@@ -1,0 +1,25 @@
+{
+  "name": "planadevopschallenge1",
+  "version": "1.0.0",
+  "description": " Resolution of PlanA DevOps Challenge Level 1: https://github.com/Plan-A-Technologies/DevOps-Challenge-Level-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davitelesfranca/planadevopschallenge1.git"
+  },
+  "keywords": [
+    "PlanA"
+  ],
+  "author": "Davi Teles Franca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davitelesfranca/planadevopschallenge1/issues"
+  },
+  "homepage": "https://github.com/davitelesfranca/planadevopschallenge1#readme",
+  "engines": {
+    "node": "17.8.0"
+  }
+}
