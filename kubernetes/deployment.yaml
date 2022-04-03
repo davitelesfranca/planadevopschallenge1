@@ -5,7 +5,7 @@ metadata:
   labels:
     app: planadevopschallenge1 
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: planadevopschallenge1
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: planadevopschallenge1
-        image: davitelesfranca/planadevopschallenge1:latest
+        image: davitelesfranca/planadevopschallenge1:v1
         resources:
           requests:
             memory: "64Mi"
@@ -24,3 +24,21 @@ spec:
           limits:
             memory: "128Mi"
             cpu: "500m"
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: planadevopschallenge1
+  labels:
+    app: planadevopschallenge1
+spec:
+  selector:
+    app: planadevopschallenge1
+  ports:
+  - port: 8080
+    protocol: TCP 
+    targetPort: 8080
+    nodePort: 30000
+  type: NodePort
