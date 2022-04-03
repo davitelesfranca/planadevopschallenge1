@@ -33,12 +33,12 @@ To run in our own environment:
 In deployment.yaml's line 44 the port type of service is set to NodePort, because that was created to be tested in a local enviroment. if you're using a public environment (cloud, for instance), please, change it to loadBalancer:
 
 
-From
+From:  
 (...)
-    type: NodePort
-To
+    type: NodePort   
+To:  
 (...)
-    type: loadBalancer
+    type: loadBalancer   
     
 
 ## Overview
