@@ -34,10 +34,10 @@ In deployment.yaml's line 44 the port type of service is set to NodePort, becaus
 
 
 From:  
-(...)
+(...)  
     type: NodePort   
 To:  
-(...)
+(...)  
     type: loadBalancer   
     
 
