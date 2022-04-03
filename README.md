@@ -18,7 +18,7 @@ To run in our own environment:
     6. kubectl apply -f kubernetes/deployment.yaml
     7. In your browser you can access http://0.0.0.0:8080 or curl 0.0.0.0:8080 and you will receive the desired out of this challenge:
     
-    ```json
+```json
 {
   "timestamp": "<current date and time>",
   "hostname": "<Name of the host (IP also accepted)>",
@@ -26,5 +26,6 @@ To run in our own environment:
   "visitor ip": "<the IP address of the visitor>"
 }
 ```
+    
     
 ## Overview
