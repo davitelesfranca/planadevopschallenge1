@@ -2,8 +2,7 @@
 
 
 * [Quickstart](#quickstart)
-* [Overview](#overview)
-* [Environment](#environment)
+
 
 ## Quickstart 
 
@@ -39,6 +38,3 @@ From:
 To:  
 (...)  
     type: loadBalancer   
-    
-
-## Overview
